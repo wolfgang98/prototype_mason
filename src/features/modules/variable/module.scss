@@ -1,0 +1,9 @@
+.variable {
+  height: 100%;
+  display: flex;
+  > * {
+    // important needed to overwrite material ui margin settings to center the text field
+    // todo: have to think of a better solution
+    margin: auto !important;
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "mason",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.3",
+    "@testing-library/user-event": "^12.0.11",
+    "@types/jest": "^26.0.3",
+    "@types/material-ui": "^0.21.7",
+    "@types/node": "^14.0.14",
+    "@types/node-sass": "^4.11.1",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-grid-layout": "^0.17.1",
+    "@types/react-redux": "^7.1.9",
+    "formula": "^3.15.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-grid-layout": "^0.18.3",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "redux-devtools": "^3.5.0",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^1.0.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5"
+  }
+}

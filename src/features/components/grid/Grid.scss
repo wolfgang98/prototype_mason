@@ -1,0 +1,10 @@
+.react-grid-layout {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: all 1000ms;
+}
+
+.react-grid-item {
+  display: flex;
+}
